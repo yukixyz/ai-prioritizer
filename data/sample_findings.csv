@@ -1,0 +1,5 @@
+id,asset,asset_criticality,cvss,summary,description,remediation,label
+1,web-frontend,high,9.1,SQL injection in login,Unsanitized parameter in login endpoint,Apply parameterized queries,high
+2,internal-db,critical,8.0,Exposed DB port,Database accessible from internet,Restrict access to VPC,high
+3,third-party,medium,5.0,Outdated library,Library with known issues,Update to latest patch,medium
+4,staging-service,low,3.1,Information disclosure,Stack trace exposed in response,Remove debug info,low
